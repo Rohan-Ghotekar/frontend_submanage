@@ -5,7 +5,7 @@ import axios from 'axios'
 // Change this one line when you deploy to AWS.
 const api = axios.create({
   // baseURL: 'https://13.201.8.73.nip.io',
-  baseURL: 'https://13.201.8.73.nip.io',
+  baseURL: 'https://subscriptionmanagement.duckdns.org',
   headers: {
     'Content-Type': 'application/json' ,
     'ngrok-skip-browser-warning': 'true',
